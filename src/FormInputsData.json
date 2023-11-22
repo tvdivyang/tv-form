@@ -1,0 +1,78 @@
+[
+    {
+        "type": "text",
+        "name": "fname",
+        "label": "Enter Your First Name"
+        ,"placeholder":"Enter Your First Name",
+        "required":"true",
+        "requiredMessages":"Frist name required *******************************************"
+    },
+    {
+        "type": "text",
+        "name": "lname",
+        "label": "Enter Your Last Name"
+        ,"placeholder":"Enter Your Last Name"
+        ,"required":"false"
+    },
+    {
+        "type": "select",
+        "options": [
+            "options 1",
+            "options 2"
+        ],
+        "name": "select",
+        "label": "Select Your dropdown value"
+        ,"required":"true"
+    },
+    {
+        "type": "radio",
+        "options": [
+            "radio 1",
+            "radio 2"
+        ],
+        "name": "radio",
+        "label": "select radio",
+        "required":"true"
+    },
+    {
+        "type": "checkbox",
+        "options": [
+            "checkbox 1",
+            "checkbox 2"
+        ],
+        "name": "checkbox",
+        "label": "select checkbox",
+        "required":"true"
+    },
+    {
+        "type": "color",
+        "name": "color",
+        "label": "Select your favorite color",
+        "required":"false"
+    },
+    {
+        "type": "date",
+        "name": "date",
+        "label": "select date",
+        "required":"true"
+    },
+    {
+        "type": "datetime-local",
+        "name": "datetime_local",
+        "label": "select datetime-local",
+        "required":"true"
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "label": "Enter Your Email"
+        ,"placeholder":"Enter Your Email Name",
+        "required":"true"
+    },
+    {
+        "label": "file select",
+        "type": "file",
+        "name": "file",
+        "required":"true"
+    }
+]
